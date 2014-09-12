@@ -12,7 +12,7 @@ layout: default
 		{% for page in site.pages %}
 			{% for pc in page.categories %}
 				{% if pc == cat %}
-				<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 				{% endif %}
 			{% endfor %}
 		{% endfor %}

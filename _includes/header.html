@@ -14,9 +14,9 @@
       </a>
 
       <div class="trigger">
-				<a class="page-link" href="/about/">About</a>
-				<a class="page-link" href="/ptimulus1/">Ptimulus #1</a>
-				<a class="page-link" href="/links/">Liens</a>
+				<a class="page-link" href="{{ "/about/" | prepend: site.baseurl }}">About</a>
+				<a class="page-link" href="{{ "/ptimulus1/" | prepend: site.baseurl }}">Ptimulus #1</a>
+				<a class="page-link" href="{{ "/links/" | prepend: site.baseurl }}">Liens</a>
         <!--{% for page in site.pages %}
           {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
