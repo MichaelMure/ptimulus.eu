@@ -4,20 +4,19 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading"><img src="/img/2014-09-06-09.50.47.jpg" alt="Ptimulus"/></h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+	{% for cat in site.category-list %}
+		<h2><a href="/{{ cat }}/">{{cat}}</a></h2>
+		<ul>
+		{% for page in site.pages %}
+			{% for pc in page.categories %}
+				{% if pc == cat %}
+				<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+				{% endif %}
+			{% endfor %}
+		{% endfor %}
+		</ul>
+	{% endfor %}
 
 </div>
