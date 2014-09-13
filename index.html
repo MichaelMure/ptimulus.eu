@@ -2,9 +2,17 @@
 layout: default
 ---
 
+{% include lightbox-header.html %}
+
 <div class="home">
 
-  <h1 class="page-heading"><img src="{{ "/img/2014-09-06-09.50.47.jpg" | prepend: site.baseurl }}" alt="Ptimulus"/></h1>
+  <h1 class="page-heading">
+  
+  <a href="/img/ptimulus.jpg" data-lightbox="ptimulus" title="Une photo prise par Ptimulus 1">
+    <img src="/img/ptimulus-thumb.jpg">
+  </a>
+  
+  </h1>
 
 	{% for cat in site.category-list %}
 		<h2><a href="{{ cat.url | prepend: site.baseurl }}">{{cat.pretty}}</a></h2>
