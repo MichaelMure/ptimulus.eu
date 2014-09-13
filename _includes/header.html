@@ -14,11 +14,11 @@
       </a>
 
       <div class="trigger">
-				<a class="page-link" href="{{ "about" | prepend: site.baseurl }}">About</a>
+				<a class="page-link" href="/{{ "about" | prepend: site.baseurl }}">About</a>
 				{% for cat in site.category-list %}
-					<a class="page-link" href="{{ cat.url | prepend: site.baseurl }}">{{cat.pretty}}</a>
+					<a class="page-link" href="/{{ cat.url | prepend: site.baseurl }}">{{cat.pretty}}</a>
 				{% endfor %}
-				<a class="page-link" href="{{ "links" | prepend: site.baseurl }}">Liens</a>
+				<a class="page-link" href="/{{ "links" | prepend: site.baseurl }}">Liens</a>
       </div>
     </nav>
 
