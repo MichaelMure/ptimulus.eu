@@ -1,0 +1,26 @@
+- id: lancer
+  description: Lancer du ballon
+  imagefolder: /img/galleries/lancer
+  images:
+  - name: image-1.jpg
+    thumb: thumb-1.jpg
+    text: image1 description
+  - name: image-2.jpg
+    thumb: thumb-2.jpg
+    text: image2 description
+  - name: image-3.jpg
+    thumb: thumb-3.jpg
+    text: image3 description
+- id: preparatifs
+  description: Préparatifs du lancer
+  imagefolder: /img/galleries/preparatifs
+  images:
+  - name: image-4.jpg
+    thumb: thumb-4.jpg
+    text: image4 description
+  - name: image-5.jpg
+    thumb: thumb-5.jpg
+    text: image5 description
+  - name: image-6.jpg
+    thumb: thumb-6.jpg
+    text: image6 description
