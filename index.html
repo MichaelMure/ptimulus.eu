@@ -7,11 +7,11 @@ layout: default
   <h1 class="page-heading"><img src="{{ "/img/2014-09-06-09.50.47.jpg" | prepend: site.baseurl }}" alt="Ptimulus"/></h1>
 
 	{% for cat in site.category-list %}
-		<h2><a href="{{ cat | prepend: site.baseurl }}">{{cat}}</a></h2>
+		<h2><a href="{{ cat.url | prepend: site.baseurl }}">{{cat.pretty}}</a></h2>
 		<ul>
 		{% for page in site.pages %}
 			{% for pc in page.categories %}
-				{% if pc == cat %}
+				{% if pc == cat.url %}
 				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 				{% endif %}
 			{% endfor %}
