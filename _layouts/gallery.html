@@ -8,14 +8,15 @@ layout: default
   {% if gallery.id == page.galleryid %}
     <h1>{{ gallery.description }}</h1>
     <ol>
+    <div width="800px">
     {% for image in gallery.images %}
-      <li>
-        {{ image.text }}<br>
-        <a href="{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text }}">
-          <img src="{{ gallery.imagefolder }}/{{ image.thumb }}">
+      <div style='float:left;margin: 7px;' class='thumbnail'>
+        <a href="{{site.baseurl}}/{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text }}">
+          <img src="{{site.baseurl}}/{{ gallery.imagefolder }}/{{ image.thumb }}">
         </a>
-      </li>
+      </div>
     {% endfor %}
+	</div>
     </ol>
   {% endif %}
 {% endfor %}

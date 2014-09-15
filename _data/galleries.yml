@@ -24,3 +24,29 @@
   - name: image-6.jpg
     thumb: thumb-6.jpg
     text: image6 description
+- id: photos-du-vol
+  description: Photos du vol
+  imagefolder: /img/galleries/photos-du-vol
+  images:
+  - name: cote1.jpg
+    thumb: cote1-thumb.png 
+  - name: cote2.jpg
+    thumb: cote2-thumb.png 
+  - name: cote1.jpg
+    thumb: cote1-thumb.png 
+  - name: cote2.jpg
+    thumb: cote2-thumb.png 
+  - name: cote1.jpg
+    thumb: cote1-thumb.png 
+  - name: cote2.jpg
+    thumb: cote2-thumb.png 
+  - name: cote1.jpg
+    thumb: cote1-thumb.png 
+  - name: cote2.jpg
+    thumb: cote2-thumb.png 
+  - name: cote1.jpg
+    thumb: cote1-thumb.png 
+  - name: cote2.jpg
+    thumb: cote2-thumb.png 
+  - name: cote1.jpg
+    thumb: cote1-thumb.png 
