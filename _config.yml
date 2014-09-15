@@ -11,8 +11,6 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 category-list:
   - url: ptimulus1
     pretty: "Ptimulus #1"
-  - url: galleries
-    pretty: "Galleries photo"
 
 permalink: none
 
