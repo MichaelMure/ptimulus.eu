@@ -4,8 +4,20 @@ title: links
 permalink: /links/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+[Simulation de trajectoire](http://predict.habhub.org)
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+http://habhub.org/calc/
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+http://wiki.ukhas.org.uk/guides:balloon_data
+
+http://wiki.ukhas.org.uk/guides:fill_tube
+
+http://www.randomengineering.co.uk
+
+calcul de vitesse de chute:
+http://randomsolutions.co.uk/Random_Aerospace/Parachutes.html
+
+http://ballons.f1psh.info/index.php/fr/?option=com_content&view=article&id=58:quantite-dhelium&catid=20:tovpi&Itemid=43&lang=fr
+
+http://les-aiglons-germinois.blog4ever.com/
+
