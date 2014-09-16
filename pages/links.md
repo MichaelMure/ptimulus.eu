@@ -6,18 +6,14 @@ permalink: /links/
 
 [Simulation de trajectoire](http://predict.habhub.org)
 
-http://habhub.org/calc/
+[Construction d'un gonfleur pour ballon](http://wiki.ukhas.org.uk/guides:fill_tube)
 
-http://wiki.ukhas.org.uk/guides:balloon_data
+[Site de vente de ballons, parachutes et accessoires](http://www.randomengineering.co.uk)
 
-http://wiki.ukhas.org.uk/guides:fill_tube
+[Calculateur de vitesse de chute](http://randomsolutions.co.uk/Random_Aerospace/Parachutes.html)
 
-http://www.randomengineering.co.uk
+[Méthodes de calcul de la quantité d'hélium contenue dans un ballon](http://ballons.f1psh.info/index.php/fr/?option=com_content&view=article&id=58:quantite-dhelium&catid=20:tovpi&Itemid=43&lang=fr)
 
-calcul de vitesse de chute:
-http://randomsolutions.co.uk/Random_Aerospace/Parachutes.html
+[Calculateur d'éclatement de ballon](http://habhub.org/calc/)
 
-http://ballons.f1psh.info/index.php/fr/?option=com_content&view=article&id=58:quantite-dhelium&catid=20:tovpi&Itemid=43&lang=fr
-
-http://les-aiglons-germinois.blog4ever.com/
-
+[Caractéristiques techniques des ballons](http://wiki.ukhas.org.uk/guides:balloon_data)
