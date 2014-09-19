@@ -9,7 +9,7 @@
 
 	  <div class="wrapper">
 
-		<a class="site-title" href="/">{{ site.title }}</a>
+		<a class="site-title" href="/"><img src="/img/logo.png"></a>
 
 		<nav class="site-nav">
 		  <a href="#" class="menu-icon">
@@ -21,11 +21,11 @@
 		  </a>
 
 		  <div class="trigger">
-					<a class="page-link" href="/about">About</a>
+					<a class="page-link" href="/about">About</a> &bull;
 					{% for cat in site.category-list %}
-						<a class="page-link" href="/{{ cat.url }}/">{{cat.pretty}}</a>
+						<a class="page-link" href="/{{ cat.url }}/">{{cat.pretty}}</a> &bull;
 					{% endfor %}
-					<a class="page-link" href="/links">Liens</a>
+					<a class="page-link" href="/links">Liens</a> &bull;
 					<a class="page-link" href="/help">Remerciements</a>
 		  </div>
 		</nav>
