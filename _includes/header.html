@@ -2,7 +2,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}">{{ site.title }}</a>
+    <a class="site-title" href="/">{{ site.title }}</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -14,12 +14,12 @@
       </a>
 
       <div class="trigger">
-				<a class="page-link" href="{{ site.baseurl }}/about">About</a>
+				<a class="page-link" href="/about">About</a>
 				{% for cat in site.category-list %}
-					<a class="page-link" href="{{ site.baseurl }}/{{ cat.url }}/">{{cat.pretty}}</a>
+					<a class="page-link" href="/{{ cat.url }}/">{{cat.pretty}}</a>
 				{% endfor %}
-				<a class="page-link" href="{{ site.baseurl }}/links">Liens</a>
-				<a class="page-link" href="{{ site.baseurl }}/help">Remerciements</a>
+				<a class="page-link" href="/links">Liens</a>
+				<a class="page-link" href="/help">Remerciements</a>
       </div>
     </nav>
 
