@@ -8,7 +8,6 @@ layout: default
   {% if gallery.id == page.galleryid %}
     <h1>{{ gallery.description }}</h1>
     <ol>
-    <div width="800px">
     {% for image in gallery.images %}
       <div style='float:left;margin: 7px;' class='thumbnail'>
         <a href="{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text }}">
@@ -16,7 +15,6 @@ layout: default
         </a>
       </div>
     {% endfor %}
-	</div>
     </ol>
   {% endif %}
 {% endfor %}
