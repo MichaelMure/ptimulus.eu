@@ -28,25 +28,132 @@
   description: Photos du vol
   imagefolder: /img/galleries/photos-du-vol
   images:
-  - name: cote1.jpg
-    thumb: cote1-thumb.png 
-  - name: cote2.jpg
-    thumb: cote2-thumb.png 
-  - name: cote1.jpg
-    thumb: cote1-thumb.png 
-  - name: cote2.jpg
-    thumb: cote2-thumb.png 
-  - name: cote1.jpg
-    thumb: cote1-thumb.png 
-  - name: cote2.jpg
-    thumb: cote2-thumb.png 
-  - name: cote1.jpg
-    thumb: cote1-thumb.png 
-  - name: cote2.jpg
-    thumb: cote2-thumb.png 
-  - name: cote1.jpg
-    thumb: cote1-thumb.png 
-  - name: cote2.jpg
-    thumb: cote2-thumb.png 
-  - name: cote1.jpg
-    thumb: cote1-thumb.png 
+  - name: bottom_2014-09-06-08.58.46-150m.jpg
+    thumb: bottom_2014-09-06-08.58.46-150m-thumb.png
+    text:
+  - name: bottom_2014-09-06-09.01.16-240m.jpg
+    thumb: bottom_2014-09-06-09.01.16-240m-thumb.png 
+    text: 
+  - name: bottom_2014-09-06-09.01.45-350m.jpg
+    thumb: bottom_2014-09-06-09.01.45-350m-thumb.png 
+    text: 
+  - name: bottom_2014-09-06-09.03.15-760m.jpg
+    thumb: bottom_2014-09-06-09.03.15-760m-thumb.png 
+    text: 
+  - name: bottom_2014-09-06-09.04.15-1000m.jpg
+    thumb: bottom_2014-09-06-09.04.15-1000m-thumb.png
+    text: 
+  - name: bottom_2014-09-06-09.05.46-1410m.jpg
+    thumb: bottom_2014-09-06-09.05.46-1410m-thumb.png
+    text: 
+  - name: bottom_2014-09-06-09.07.45-1930m.jpg
+    thumb: bottom_2014-09-06-09.07.45-1930m-thumb.png
+    text: 
+  - name: bottom_2014-09-06-09.08.45-2280m.jpg
+    thumb: bottom_2014-09-06-09.08.45-2280m-thumb.png
+    text: 
+  - name: bottom_2014-09-06-09.09.16-2440m.jpg
+    thumb: bottom_2014-09-06-09.09.16-2440m-thumb.png
+    text: 
+  - name: bottom_2014-09-06-09.09.45-2580m.jpg
+    thumb: bottom_2014-09-06-09.09.45-2580m-thumb.png
+    text: 
+  - name: bottom_2014-09-06-09.13.46-3750m.jpg
+    thumb: bottom_2014-09-06-09.13.46-3750m-thumb.png
+    text: 
+  - name: bottom_2014-09-06-09.21.46-5990m.jpg
+    thumb: bottom_2014-09-06-09.21.46-5990m-thumb.png
+    text: 
+  - name: bottom_2014-09-06-09.28.16-7830m.jpg
+    thumb: bottom_2014-09-06-09.28.16-7830m-thumb.png
+    text: 
+  - name: bottom_2014-09-06-09.37.46-10500m.jpg
+    thumb: bottom_2014-09-06-09.37.46-10500m-thumb.png
+    text: 
+  - name: bottom_2014-09-06-09.38.46-10790m.jpg
+    thumb: bottom_2014-09-06-09.38.46-10790m-thumb.png
+    text: 
+  - name: bottom_2014-09-06-09.47.16-13330m.jpg
+    thumb: bottom_2014-09-06-09.47.16-13330m-thumb.png
+    text: 
+  - name: bottom_2014-09-06-09.50.46-14400m.jpg
+    thumb: bottom_2014-09-06-09.50.46-14400m-thumb.png
+    text: 
+  - name: bottom_2014-09-06-09.52.16-14830m.jpg
+    thumb: bottom_2014-09-06-09.52.16-14830m-thumb.png
+    text: 
+  - name: side_2014-09-06-08.55.47-150m.jpg
+    thumb: side_2014-09-06-08.55.47-150m-thumb.png
+    text: 
+  - name: side_2014-09-06-09.00.17-150m.jpg
+    thumb: side_2014-09-06-09.00.17-150m-thumb.png
+    text: 
+  - name: side_2014-09-06-09.04.16-850m.jpg
+    thumb: side_2014-09-06-09.04.16-850m-thumb.png
+    text: 
+  - name: side_2014-09-06-09.06.47-1590m.jpg
+    thumb: side_2014-09-06-09.06.47-1590m-thumb.png
+    text: 
+  - name: side_2014-09-06-09.09.17-2260m.jpg
+    thumb: side_2014-09-06-09.09.17-2260m-thumb.png
+    text: 
+  - name: side_2014-09-06-09.13.16-3610m.jpg
+    thumb: side_2014-09-06-09.13.16-3610m-thumb.png
+    text: 
+  - name: side_2014-09-06-09.15.47-4140m.jpg
+    thumb: side_2014-09-06-09.15.47-4140m-thumb.png
+    text: 
+  - name: side_2014-09-06-09.21.47-5950m.jpg
+    thumb: side_2014-09-06-09.21.47-5950m-thumb.png
+    text: 
+  - name: side_2014-09-06-09.24.17-6450m.jpg
+    thumb: side_2014-09-06-09.24.17-6450m-thumb.png
+    text: 
+  - name: side_2014-09-06-09.30.47-8000m.jpg
+    thumb: side_2014-09-06-09.30.47-8000m-thumb.png
+    text: 
+  - name: side_2014-09-06-09.31.17-8680m.jpg
+    thumb: side_2014-09-06-09.31.17-8680m-thumb.png
+    text: 
+  - name: side_2014-09-06-09.33.17-9100m.jpg
+    thumb: side_2014-09-06-09.33.17-9100m-thumb.png
+    text: 
+  - name: side_2014-09-06-09.33.47-9220m.jpg
+    thumb: side_2014-09-06-09.33.47-9220m-thumb.png
+    text: 
+  - name: side_2014-09-06-09.34.17-9340m.jpg
+    thumb: side_2014-09-06-09.34.17-9340m-thumb.png
+    text: 
+  - name: side_2014-09-06-09.38.17-10580m.jpg
+    thumb: side_2014-09-06-09.38.17-10580m-thumb.png
+    text: 
+  - name: side_2014-09-06-09.39.47-10870m.jpg
+    thumb: side_2014-09-06-09.39.47-10870m-thumb.png
+    text: 
+  - name: side_2014-09-06-09.40.47-11150m.jpg
+    thumb: side_2014-09-06-09.40.47-11150m-thumb.png
+    text: 
+  - name: side_2014-09-06-09.41.47-11390m.jpg
+    thumb: side_2014-09-06-09.41.47-11390m-thumb.png
+    text: 
+  - name: side_2014-09-06-09.46.47-13000m.jpg
+    thumb: side_2014-09-06-09.46.47-13000m-thumb.png
+    text: 
+  - name: side_2014-09-06-09.48.17-13260m.jpg
+    thumb: side_2014-09-06-09.48.17-13260m-thumb.png
+    text: 
+  - name: side_2014-09-06-09.48.47-13310m.jpg
+    thumb: side_2014-09-06-09.48.47-13310m-thumb.png
+    text: 
+  - name: side_2014-09-06-09.49.47-13420m.jpg
+    thumb: side_2014-09-06-09.49.47-13420m-thumb.png
+    text: 
+  - name: side_2014-09-06-09.50.47-13520m.jpg
+    thumb: side_2014-09-06-09.50.47-13520m-thumb.png
+    text: 
+  - name: side_2014-09-06-09.51.17-14540m.jpg
+    thumb: side_2014-09-06-09.51.17-14540m-thumb.png
+    text: 
+  - name: side_2014-09-06-09.51.47-14630m.jpg
+    thumb: side_2014-09-06-09.51.47-14630m-thumb.png
+    text: 
