@@ -20,11 +20,13 @@ layout: default
 		<h2><a href="/{{ cat.url }}">{{cat.pretty}}</a></h2>
 		<ul>
 		{% for page in site.pages %}
-			{% for pc in page.categories %}
-				{% if pc == cat.url %}
-				<li><a href="{{ page.url }}">{{ page.title }}</a></li>
-				{% endif %}
-			{% endfor %}
+			{% if page.subsection == nil %}
+				{% for pc in page.section %}
+					{% if pc == cat.url %}
+					<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+					{% endif %}
+				{% endfor %}
+			{% endif %}
 		{% endfor %}
 		</ul>
 	{% endfor %}

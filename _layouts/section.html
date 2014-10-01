@@ -1,0 +1,11 @@
+---
+layout: page
+---
+
+<ul>
+{% for sitePage in site.pages %}
+	{% if sitePage.permalink > page.permalink and sitePage.subsection == nil %}
+	<li><a href="{{ sitePage.url }}">{{ sitePage.title }}</a></li>
+	{% endif %}
+{% endfor %}
+</ul>

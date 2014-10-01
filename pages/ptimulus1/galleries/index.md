@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: page
 title: Galleries photos
 permalink: /ptimulus1/galleries/
+section: ptimulus1
 ---
-
-### Galleries photos disponibles:
 
 {% for gallery in site.data.galleries %}
 - [{{ gallery.description }}]({{ gallery.id }})

@@ -1,12 +1,11 @@
 ---
-layout: default
+layout: page
 ---
 
 {% include lightbox-header.html %}
 
 {% for gallery in site.data.galleries %}
   {% if gallery.id == page.galleryid %}
-    <h1>{{ gallery.description }}</h1>
     <ol>
     {% for image in gallery.images %}
       <div style='float:left;margin: 7px;' class='thumbnail'>
