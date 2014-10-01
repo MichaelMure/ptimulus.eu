@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Ils nous ont aidé!
-permalink: /help/
+permalink: /thanks/
 ---
 
 Nous tenons à remercier :
