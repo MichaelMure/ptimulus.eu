@@ -4,14 +4,14 @@ layout: page
 
 {% for gallery in site.data.galleries %}
   {% if gallery.id == page.galleryid %}
-    <ol>
+
     {% for image in gallery.images %}
       <div style='float:left;margin: 7px;' class='thumbnail'>
         <a href="{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text }}">
-          <img src="{{ gallery.imagefolder }}/{{ image.thumb }}">
+          <img src="{{ gallery.imagefolder }}/{{ image.thumb }}" alt="{{ image.text }}">
         </a>
       </div>
     {% endfor %}
-    </ol>
+
   {% endif %}
 {% endfor %}
