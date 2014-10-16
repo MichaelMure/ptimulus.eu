@@ -8,11 +8,25 @@
     </div>
 
     <ul class="sidebar-nav">
-
+	
       {% for cat in site.category-list %}
-        <li class="sidebar-nav-item{% if page.url == "/" + cat.url + "/" %} active{% endif %}">
+        {% capture current_cat_url %}/{{ cat.url }}/{% endcapture %}
+        <li class="sidebar-nav-item{% if page.url == current_cat_url %} active{% endif %}">
           <a href="/{{ cat.url }}">{{ cat.pretty }}</a>
         </li>
+        <ul>
+        {% for site_page in site.pages %}
+          {% if site_page.subsection == nil %}
+            {% for pc in site_page.section %}
+              {% if pc == cat.url %}
+                <li class="sidebar-nav-sub-item{% if page.url contains site_page.url %} active{% endif %}">
+                  <a href="{{ site_page.url }}">{{ site_page.title }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+        </ul>
       {% endfor %}
       
       <li class="sidebar-nav-item{% if page.url == "/links/" %} active{% endif %}">

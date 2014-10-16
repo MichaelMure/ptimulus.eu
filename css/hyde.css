@@ -89,6 +89,7 @@ html {
   list-style: none;
 }
 .sidebar-nav-item {
+  margin-top: 0.6rem;
   display: block;
 }
 a.sidebar-nav-item:hover,
@@ -96,6 +97,12 @@ a.sidebar-nav-item:focus {
   text-decoration: underline;
 }
 .sidebar-nav-item.active {
+  font-weight: bold;
+}
+
+.sidebar-nav-sub-item {
+}
+.sidebar-nav-sub-item.active {
   font-weight: bold;
 }
 
