@@ -2,33 +2,27 @@
 layout: default
 ---
 
-{% include lightbox-header.html %}
-
 <div class="home">
 
   <h1 class="page-heading">
-  
-  <center>
-    <a href="/img/ptimulus.jpg" data-lightbox="ptimulus" title="Une photo prise par Ptimulus 1">
-      <img src="/img/ptimulus-thumb.jpg">
-    </a>
-  </center>
+
+  {% include lightbox-single.html img="/img/ptimulus.jpg" title="Une photo prise par Ptimulus 1" %}
 
   </h1>
 
-	{% for cat in site.category-list %}
-		<h2><a href="/{{ cat.url }}">{{cat.pretty}}</a></h2>
-		<ul>
-		{% for page in site.pages %}
-			{% if page.subsection == nil %}
-				{% for pc in page.section %}
-					{% if pc == cat.url %}
-					<li><a href="{{ page.url }}">{{ page.title }}</a></li>
-					{% endif %}
-				{% endfor %}
-			{% endif %}
-		{% endfor %}
-		</ul>
-	{% endfor %}
+    {% for cat in site.category-list %}
+        <h2><a href="/{{ cat.url }}">{{cat.pretty}}</a></h2>
+        <ul>
+        {% for page in site.pages %}
+            {% if page.subsection == nil %}
+                {% for pc in page.section %}
+                    {% if pc == cat.url %}
+                    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+        </ul>
+    {% endfor %}
 
 </div>
