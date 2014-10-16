@@ -89,15 +89,35 @@ html {
   list-style: none;
 }
 .sidebar-nav-item {
+  font-size: 1.5rem;
   margin-top: 0.6rem;
   display: block;
 }
+
+@media (min-width: 48rem) {
+  .sidebar-nav-item {
+    font-size: 1rem;
+  }
+}
+
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: underline;
 }
 .sidebar-nav-item.active {
   font-weight: bold;
+}
+
+.sidebar-nav-sub {
+    padding-left: 0;
+    list-style: none;
+}
+  
+@media (min-width: 48rem) {
+  .sidebar-nav-sub {  
+    padding-left: 2rem;
+    list-style: circle;
+  }
 }
 
 .sidebar-nav-sub-item {
