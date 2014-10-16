@@ -12,6 +12,7 @@
         <li class="sidebar-nav-item{% if page.url == current_cat_url %} active{% endif %}">
           <a href="/{{ cat.url }}">{{ cat.pretty }}</a>
         </li>
+        <li>
         <ul class="sidebar-nav-sub">
         {% for site_page in site.pages %}
           {% if site_page.subsection == nil %}
@@ -25,6 +26,7 @@
           {% endif %}
         {% endfor %}
         </ul>
+        </li>
       {% endfor %}
 
       <li class="sidebar-nav-item{% if page.url == "/links/" %} active{% endif %}">
