@@ -2,7 +2,7 @@
 title: Ptimulus
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Totally awesome description here involving disabled kid pun.
+  Il se passe quoi si on envoit un ballon dans la stratosphère ?
 baseurl: "" # the subpath of the site
 url: "http://ptimulus.eu" # the base hostname & protocol for the site
 
