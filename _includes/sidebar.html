@@ -8,9 +8,6 @@
     </div>
 
     <ul class="sidebar-nav">
-      <li class="sidebar-nav-item{% if page.url == "/about/" %} active{% endif %}">
-        <a href="/about">About</a>
-      </li>
 
       {% for cat in site.category-list %}
         <li class="sidebar-nav-item{% if page.url == "/" + cat.url + "/" %} active{% endif %}">
