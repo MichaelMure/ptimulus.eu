@@ -10,19 +10,4 @@ layout: default
 
   </h1>
 
-    {% for cat in site.category-list %}
-        <h2><a href="/{{ cat.url }}">{{cat.pretty}}</a></h2>
-        <ul>
-        {% for page in site.pages %}
-            {% if page.subsection == nil %}
-                {% for pc in page.section %}
-                    {% if pc == cat.url %}
-                    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-                    {% endif %}
-                {% endfor %}
-            {% endif %}
-        {% endfor %}
-        </ul>
-    {% endfor %}
-
 </div>
