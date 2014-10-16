@@ -5,10 +5,6 @@ permalink: /ptimulus1/result/
 section: ptimulus1
 ---
 
-{% include lightbox-header.html %}
-
-{% include lightbox-single.html img="/img/ptimulus1/journal1.png" title="Article de journal 1" %}
-{% include lightbox-single.html img="/img/ptimulus1/journal2.png" title="Article de journal 2" %}
 {% include lightbox-single.html img="/img/ptimulus1/earth.png" title="Trajectoire" %}
 {% include lightbox-single.html img="/img/ptimulus1/gps1.png" title="Graphique de l'altitude du GPS 1" %}
 {% include lightbox-single.html img="/img/ptimulus1/gps2.png" title="Graphique de l'altitude du GPS 2" %}
@@ -17,3 +13,5 @@ section: ptimulus1
 {% include lightbox-single.html img="/img/ptimulus1/magn.png" title="Graphique du magnétomètre" %}
 
 
+{% include lightbox-single.html img="/img/ptimulus1/journal1.png" title="Article de journal 1" %}
+{% include lightbox-single.html img="/img/ptimulus1/journal2.png" title="Article de journal 2" %}
