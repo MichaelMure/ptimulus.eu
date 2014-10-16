@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Administratif
-permalink: /paperwork/
+title: Réglementation
+permalink: /regulation/
 ---
 
 *Lâcher un ballon sonde nécessite de respecter la législation en vigueur*. En France, la réglementation qui s'applique aux ballons sonde ("Ballon Libre Non Habité" selon la législation) est définie à l'appendice 4 de [l'annexe 1 à l'arrêté du 3 mars 2006 (Règles de l'Air)](https://www.sia.aviation-civile.gouv.fr/dossier/texteregle/RDA_complet_12122013.pdf) (lien pour la version du 12/12/2013).

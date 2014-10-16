@@ -9,8 +9,8 @@ url: "http://ptimulus.eu" # the base hostname & protocol for the site
 category-list:
   - url: ptimulus1
     pretty: "Ptimulus 1"
-  - url: paperwork
-    pretty: "Administratif"
+  - url: regulation
+    pretty: "Réglementation"
 
 permalink: none
 
