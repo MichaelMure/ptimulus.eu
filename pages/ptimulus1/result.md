@@ -12,6 +12,3 @@ section: ptimulus1
 {% include lightbox-single.html img="/img/ptimulus1/accel2.png" title="Graphique de l'accéléromètre 2" %}
 {% include lightbox-single.html img="/img/ptimulus1/magn.png" title="Graphique du magnétomètre" %}
 
-
-{% include lightbox-single.html img="/img/ptimulus1/journal1.png" title="Article de journal 1" %}
-{% include lightbox-single.html img="/img/ptimulus1/journal2.png" title="Article de journal 2" %}
