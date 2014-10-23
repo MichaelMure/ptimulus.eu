@@ -10,19 +10,44 @@
     thumb: lancer-3-thumb.png
   - name: lancer-4.jpg
     thumb: lancer-4-thumb.png
-- id: preparatifs
-  description: Préparatifs du lancer
-  imagefolder: /img/galleries/preparatifs
+- id: recuperation
+  description: Récupération du ballon
+  imagefolder: /img/galleries/recuperation
   images:
-  - name: image-4.jpg
-    thumb: thumb-4.jpg
-    text: image4 description
-  - name: image-5.jpg
-    thumb: thumb-5.jpg
-    text: image5 description
-  - name: image-6.jpg
-    thumb: thumb-6.jpg
-    text: image6 description
+  - name: recuperation-1.jpg
+    thumb: recuperation-1-thumb.png
+  - name: recuperation-2.jpg
+    thumb: recuperation-2-thumb.png
+  - name: recuperation-3.jpg
+    thumb: recuperation-3-thumb.png
+  - name: recuperation-4.jpg
+    thumb: recuperation-4-thumb.png
+  - name: recuperation-5.jpg
+    thumb: recuperation-5-thumb.png
+  - name: recuperation-6.jpg
+    thumb: recuperation-6-thumb.png
+  - name: recuperation-7.jpg
+    thumb: recuperation-7-thumb.png
+  - name: recuperation-8.jpg
+    thumb: recuperation-8-thumb.png
+  - name: recuperation-9.jpg
+    thumb: recuperation-9-thumb.png
+  - name: recuperation-10.jpg
+    thumb: recuperation-10-thumb.png
+  - name: recuperation-11.jpg
+    thumb: recuperation-11-thumb.png
+  - name: recuperation-12.jpg
+    thumb: recuperation-12-thumb.png
+  - name: recuperation-13.jpg
+    thumb: recuperation-13-thumb.png
+  - name: recuperation-14.jpg
+    thumb: recuperation-14-thumb.png
+  - name: recuperation-15.jpg
+    thumb: recuperation-15-thumb.png
+  - name: recuperation-16.jpg
+    thumb: recuperation-16-thumb.png
+  - name: recuperation-17.jpg
+    thumb: recuperation-17-thumb.png
 - id: photos-du-vol
   description: Photos du vol
   imagefolder: /img/galleries/photos-du-vol
