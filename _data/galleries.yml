@@ -2,15 +2,14 @@
   description: Lancer du ballon
   imagefolder: /img/galleries/lancer
   images:
-  - name: image-1.jpg
-    thumb: thumb-1.jpg
-    text: image1 description
-  - name: image-2.jpg
-    thumb: thumb-2.jpg
-    text: image2 description
-  - name: image-3.jpg
-    thumb: thumb-3.jpg
-    text: image3 description
+  - name: lancer-1.jpg
+    thumb: lancer-1-thumb.png
+  - name: lancer-2.jpg
+    thumb: lancer-2-thumb.png
+  - name: lancer-3.jpg
+    thumb: lancer-3-thumb.png
+  - name: lancer-4.jpg
+    thumb: lancer-4-thumb.png
 - id: preparatifs
   description: Préparatifs du lancer
   imagefolder: /img/galleries/preparatifs
