@@ -3,10 +3,7 @@ layout: page
 title: Hardware
 permalink: /ptimulus1/hardware/
 section: ptimulus1
+nacelle: ["nacelle1.jpg", "nacelle2.jpg", "nacelle3.jpg", "nacelle4.jpg"]
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+{% include lightbox-gallery.html imagefolder="/img/ptimulus1/" galleryid="nacelle" %}
