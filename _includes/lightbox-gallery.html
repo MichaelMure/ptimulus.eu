@@ -1,3 +1,5 @@
 {% for img in page[include.galleryid] %}
-<a href="{{ include.imagefolder }}{{ img }}" data-lightbox="include.galleryid"><img src="{{ include.imagefolder }}{{ img }}" style="max-width:50px"></a>
+<div style='float:left;margin: 7px;' class='thumbnail'>
+<a href="{{ include.imagefolder }}{{ img }}.jpg" data-lightbox="include.galleryid"><img src="{{ include.imagefolder }}{{ img }}_thumb.png" style="max-width:200px"></a>
+</div>
 {% endfor %}
