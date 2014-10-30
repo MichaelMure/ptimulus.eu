@@ -10,7 +10,7 @@ La réglementation classe les ballons en 3 types selon plusieurs critères. Notr
  
 
 __Si vous voulez vous lancer dans l'aventure, il faut absolument que vous contactiez la [DSAC](http://www.developpement-durable.gouv.fr/-Directions-de-la-Securite-de-l-.html) de votre région pour obtenir son autorisation avant de lancer votre ballon__. Ne lancez __JAMAIS__ un ballon sans autorisation de la DSAC. 
-L'obtention de l'autorisation de la DSAC peux prendre plusieurs mois. Contactez la DSAC de votre région au minimum 6 mois avant la date du lâché de votre ballon.
+L'obtention de l'autorisation de la DSAC peut prendre plusieurs mois. Contactez la DSAC de votre région au minimum 6 mois avant la date du lâché de votre ballon.
 
 
 En plus de l'autorisation pour lancer le ballon, il faut également obtenir l'autorisation du propriétaire ou de l'exploitant du terrain duquel le lâché du ballon sera effectué. Vous n'aurez probablement pas de problème pour trouver un terrain, mais occupez-vous en bien à l'avance également.
