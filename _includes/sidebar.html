@@ -9,9 +9,7 @@
 
       {% for cat in site.category-list %}
         {% capture current_cat_url %}/{{ cat.url }}/{% endcapture %}
-        <li class="sidebar-nav-item{% if page.url == current_cat_url %} active{% endif %}">
-          <a href="/{{ cat.url }}">{{ cat.pretty }}</a>
-        </li>
+        <li class="sidebar-nav-item{% if page.url == current_cat_url %} active{% endif %}">{{ cat.pretty }}</li>
         <li>
           <ul class="sidebar-nav-sub">
           {% assign pages = site.pages | sort:"path"  %}
@@ -30,6 +28,10 @@
         </li>
       {% endfor %}
 
+      <li class="sidebar-nav-item{% if page.url == "/regulation/" %} active{% endif %}">
+        <a href="/regulation">Réglementation</a>
+      </li>
+      
       <li class="sidebar-nav-item{% if page.url == "/links/" %} active{% endif %}">
         <a href="/links">Liens</a>
       </li>

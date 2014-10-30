@@ -9,22 +9,21 @@ layout: default
   
   <!-- Display page section with URL -->
   {% if page.section %}
-    {% capture section_permalink %}/{{ page.section }}/{% endcapture %}
-    {% for site_page in pages %}
-	  {% if site_page.permalink == section_permalink %}
-	    <a href="{{ site_page.permalink }}">{{ site_page.title }}</a> > 
-	  {% endif %}
-	{% endfor %}
+    {% for category in site.category-list %}
+	    {% if category.url == page.section %}
+	      <a href="/{{ page.section }}">{{ category.pretty }}</a> > 
+	    {% endif %}
+	  {% endfor %}
   {% endif %}
   
   <!-- Display page subsection with URL -->
   {% if page.subsection %}
     {% capture section_permalink %}/{{ page.section }}/{{ page.subsection }}/{% endcapture %}
     {% for site_page in pages %}
-	  {% if site_page.permalink == section_permalink %}
-	    <a href="{{ site_page.permalink }}">{{ site_page.title }}</a> > 
-	  {% endif %}
-	{% endfor %}
+	    {% if site_page.permalink == section_permalink %}
+	      <a href="{{ site_page.permalink }}">{{ site_page.title }}</a> > 
+	    {% endif %}
+	  {% endfor %}
   {% endif %}
   
   {{ page.title }}
