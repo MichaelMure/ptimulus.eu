@@ -22,16 +22,16 @@ Pour les curieux, l'extrapolation est une régression polynomiale de degré 2 po
 
 ###### Trajectoire du ballon sur Google Earth
 Voici une représentation 3D de la trajectoire de notre ballon sur Google Earth. Il manque la trajectoire au dessus de 18000m.
-{% include lightbox-single.html img="/img/ptimulus1/earth.png" title="Trajectoire" %}
+{% include lightbox-single.html img="earth.png" imagefolder="/img/ptimulus1/"  title="Trajectoire" %}
 
 ###### Courbe de l'altitude mesurée par le téléphone 1
-{% include lightbox-single.html img="/img/ptimulus1/altitude1.PNG" title="Courbe de l'altitude mesurée par le GPS du téléphone 1" %}
+{% include lightbox-single.html img="altitude1.PNG" imagefolder="/img/ptimulus1/"  title="Courbe de l'altitude mesurée par le GPS du téléphone 1" %}
 
 ###### Courbe de l'altitude mesurée par le téléphone 2
-{% include lightbox-single.html img="/img/ptimulus1/altitude2.PNG" title="Courbe de l'altitude mesurée par le GPS du téléphone 2" %}
+{% include lightbox-single.html img="altitude2.PNG" imagefolder="/img/ptimulus1/"  title="Courbe de l'altitude mesurée par le GPS du téléphone 2" %}
 
 ###### Estimation de la courbe complète de l'altitude par extrapolation
-{% include lightbox-single.html img="/img/ptimulus1/altitude_estimee.png" title="Courbe de l'altitude estimée" %}
+{% include lightbox-single.html img="altitude_estimee.png" imagefolder="/img/ptimulus1/"  title="Courbe de l'altitude estimée" %}
 
 
 ### Accélération
@@ -40,7 +40,7 @@ La mesure de l'accélération a cessé après seulement quelques minutes sur les
 
 ### Champ magnétique terrestre
 blablablabla
-{% include lightbox-single.html img="/img/ptimulus1/magn.png" title="Courbe de l'altitude estimée" %}
+{% include lightbox-single.html img="magn.png" imagefolder="/img/ptimulus1/" title="Courbe de l'altitude estimée" %}
 
 
 

@@ -1,3 +1,9 @@
-<a href="{{ include.imagefolder }}/{{ include.img }}.jpg" data-lightbox="{{ include.img }}" title="{{ include.title }}" style="text-align:center">
-  <img src="{{ include.imagefolder }}/{{ include.img }}-thumb.png" style="max-width:100%">
+{% if include.thumb %}
+<a href="{{ include.imagefolder }}/{{ include.img }}" data-lightbox="{{ include.img }}" title="{{ include.title }}" style="text-align:center">
+  <img src="{{ include.imagefolder }}/{{ include.thumb }}" style="max-width:100%">
 </a>
+{% else %}
+<a href="{{ include.imagefolder }}/{{ include.img }}" data-lightbox="{{ include.img }}" title="{{ include.title }}" style="text-align:center">
+  <img src="{{ include.imagefolder }}/{{ include.img }}" style="max-width:100%">
+</a>
+{% endif %}
