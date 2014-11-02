@@ -1,5 +1,11 @@
-{% for img in page[include.galleryid] %}
+{% for gallery in site.data.galleries %}
+  {% if gallery.id == include.galleryid %}
+    {% for img in gallery.images %}
 <div style='float:left;margin: 7px;' class='thumbnail'>
-<a href="{{ include.imagefolder }}{{ img }}.jpg" data-lightbox="include.galleryid"><img src="{{ include.imagefolder }}{{ img }}-thumb.png" style="max-width:200px"></a>
+<a href="{{ gallery.imagefolder }}/{{ img.name }}" data-lightbox="include.galleryid" title="{{ img.text }}">
+  <img src="{{ gallery.imagefolder }}/{{ img.thumb }}" style="max-width:200px" alt="{{ img.text }}">
+</a>
 </div>
+    {% endfor %}
+  {% endif %}
 {% endfor %}

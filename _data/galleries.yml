@@ -184,4 +184,14 @@
   - name: bottom_2014-09-06-09.52.16-14830m.jpg
     thumb: bottom_2014-09-06-09.52.16-14830m-thumb.png
     text: 14830m - dernière photo prise par le ballon
-
+- id: ptimulus1-hardware
+  imagefolder: /img/ptimulus1
+  images:
+  - name: nacelle1.jpg
+    thumb: nacelle1-thumb.png
+  - name: nacelle2.jpg
+    thumb: nacelle2-thumb.png
+  - name: nacelle3.jpg
+    thumb: nacelle3-thumb.png
+  - name: nacelle4.jpg
+    thumb: nacelle4-thumb.png
