@@ -5,7 +5,7 @@ permalink: /ptimulus1/software/
 section: ptimulus1
 ---
 
-La nacelle de Ptimulus 1 étant équipée de deux téléphones Android (voir la section "Hardware"), ceux-ci servirent de plateforme pour la partie logicielle de la nacelle, assurant ainsi 
+La nacelle de Ptimulus 1 étant équipée de deux téléphones Android (voir la section [Hardware](/ptimulus1/hardware/)), ceux-ci servirent de plateforme pour la partie logicielle de la nacelle, assurant ainsi 
 le relevé de données, la communication par SMS et la prise de photos.
 
 <h2 id="le-projet">Relevé de données et communication avec la terre ferme</h2>
