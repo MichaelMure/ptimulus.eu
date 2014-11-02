@@ -63,7 +63,6 @@ body {
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-image: url("/img/escheresque.png");
-  min-height: 700px;
 }
 @media (min-width: 48rem) {
   .sidebar {
@@ -73,6 +72,13 @@ body {
     bottom: 0;
     width: 18rem;
     text-align: left;
+	min-height: 615px;
+  }
+}
+
+@media (min-width: 58rem) {
+  .sidebar  {
+	min-height: 730px;
   }
 }
 
