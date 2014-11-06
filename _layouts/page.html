@@ -7,11 +7,11 @@ layout: default
   
   {% assign pages = site.pages | sort:"path"  %}
   
-  <!-- Display page section with URL -->
+  <!-- Display page section (no URL) -->
   {% if page.section %}
     {% for category in site.category-list %}
 	    {% if category.url == page.section %}
-	      <a href="/{{ page.section }}">{{ category.pretty }}</a> > 
+	      {{ category.pretty }} > 
 	    {% endif %}
 	  {% endfor %}
   {% endif %}
