@@ -1,3 +1,4 @@
+<div style="display: inline-block">
 {% for gallery in site.data.galleries %}
   {% if gallery.id == include.galleryid %}
     {% for img in gallery.images %}
@@ -14,3 +15,4 @@
     {% endfor %}
   {% endif %}
 {% endfor %}
+</div>

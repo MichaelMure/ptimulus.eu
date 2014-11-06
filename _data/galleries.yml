@@ -212,3 +212,23 @@
   - name: bertrandmandrin.jpg
     thumb: bertrandmandrin-thumb.png
     caption: Bertrand
+- id: dayd_recuperation
+  imagefolder: /img/galleries/recuperation
+  embedded: true
+  images:
+  - name: recuperation-2.jpg
+    thumb: recuperation-2-thumb.png
+  - name: recuperation-4.jpg
+    thumb: recuperation-4-thumb.png
+  - name: recuperation-5.jpg
+    thumb: recuperation-5-thumb.png
+- id: dayd_recuperation2
+  imagefolder: /img/galleries/recuperation
+  embedded: true
+  images:
+  - name: recuperation-10.jpg
+    thumb: recuperation-10-thumb.png
+  - name: recuperation-11.jpg
+    thumb: recuperation-11-thumb.png
+  - name: recuperation-12.jpg
+    thumb: recuperation-12-thumb.png
