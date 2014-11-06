@@ -196,3 +196,19 @@
     thumb: nacelle3-thumb.png
   - name: nacelle4.jpg
     thumb: nacelle4-thumb.png
+- id: people
+  imagefolder: /img/people
+  embedded: true
+  images:
+  - name: michaelmure.jpg
+    thumb: michaelmure-thumb.png
+    caption: Michael
+  - name: julienschneider.jpg
+    thumb: julienschneider-thumb.png
+    caption: Julien
+  - name: nicolasfrossard.jpg
+    thumb: nicolasfrossard-thumb.png
+    caption: Nicolas
+  - name: bertrandmandrin.jpg
+    thumb: bertrandmandrin-thumb.png
+    caption: Bertrand
