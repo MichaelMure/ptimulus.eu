@@ -186,6 +186,7 @@
     text: 14830m - dernière photo prise par le ballon
 - id: ptimulus1-hardware
   imagefolder: /img/ptimulus1
+  embedded: true
   images:
   - name: nacelle1.jpg
     thumb: nacelle1-thumb.png

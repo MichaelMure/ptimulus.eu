@@ -6,5 +6,7 @@ section: ptimulus1
 ---
 
 {% for gallery in site.data.galleries %}
-- [{{ gallery.description }}]({{ gallery.id }})
+  {% if gallery.embedded != true %}
+  - [{{ gallery.description }}]({{ gallery.id }})
+  {% endif %}
 {% endfor %}
