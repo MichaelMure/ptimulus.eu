@@ -8,7 +8,7 @@ section: ptimulus1
 La nacelle de Ptimulus 1 étant équipée de deux téléphones Android (voir la section [Hardware](/ptimulus1/hardware/)), ceux-ci servirent de plateforme pour la partie logicielle de la nacelle, assurant ainsi 
 le relevé de données, la communication par SMS et la prise de photos.
 
-<h2 id="le-projet">Relevé de données et communication avec la terre ferme</h2>
+## Relevé de données et communication avec la terre ferme
 Le logiciel libre Ptimulus a été développé spécifiquement pour assurer le relevé de données (coordonnées GPS, altitude, champs magnétique et accélération) et l'envoi de la position GPS par SMS au cours du vol, permettant notamment de suivre les déplacements du ballon et de retrouver précisément son point d'impact. Plus d'informations et le code source de l'application sont disponibles <a href="https://github.com/NicolasFrd/Ptimulus">sur le projet Github</a>.
 
 ## Prise de photos

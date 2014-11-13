@@ -21,7 +21,7 @@ Comme nous avions 2 téléphones dans notre nacelle, toutes les mesures ont ét�
 ###### Trajectoire du ballon sur Google Earth
 Voici une représentation 3D de la trajectoire de notre ballon sur Google Earth. Il manque la trajectoire au dessus de 18000m.
 
-{% include lightbox-single.html img="earth.png" imagefolder="/img/ptimulus1/"  title="Trajectoire" %}
+{% include lightbox-single.html img="earth.png" imagefolder="/img/ptimulus1/"  title="Trajectoire dans Google Earth" %}
 
 Nous avons pu enregistrer la position de la nacelle tout au long du vol, hormis au dessus de 18000m à cause des [limites COCOM](http://fr.wikipedia.org/wiki/Global_Positioning_System#Limitations_des_r.C3.A9cepteurs_civils) des GPS civils. Les limites COCOM implémentées dans les GPS civils empêchent leur utilisation au dessus de 18000m et de 1900km/h. Cependant, la plupart des fabricants ont interprété ce "et" en "ou", ce qui fait que la plupart des GPS civils se désactivent au dessus de 18000m, quelque soit la vitesse mesurée.
 

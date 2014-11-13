@@ -196,6 +196,22 @@
     thumb: nacelle3-thumb.png
   - name: nacelle4.jpg
     thumb: nacelle4-thumb.png
+- id: ptimulus1-reflecteur
+  imagefolder: /img/ptimulus1
+  embedded: true
+  images:
+  - name: reflecteur0.jpg
+    thumb: reflecteur0-thumb.png
+  - name: reflecteur2.jpg
+    thumb: reflecteur2-thumb.png
+- id: ptimulus1-reception
+  imagefolder: /img/ptimulus1
+  embedded: true
+  images:
+  - name: helium.jpg
+    thumb: helium-thumb.png
+  - name: parachute.jpg
+    thumb: parachute-thumb.png
 - id: people
   imagefolder: /img/people
   embedded: true

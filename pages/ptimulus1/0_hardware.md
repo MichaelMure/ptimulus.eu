@@ -51,17 +51,18 @@ Nous avons ensuite rapidement pris la décision d'embarquer 2 smartphones pour d
 Nous avons acheté le ballon et le parachute sur le site spécialisé [randomengineering](http://www.randomengineering.co.uk). Il a simplement fallu attendre que la conception des autres éléments de la chaine de vol soit bien avancée pour dimensionner correctement le ballon et le parachute.
 Pour l'hélium, nous avons contacté le revendeur Air Liquide le plus proche, qui nous a indiqué la marche à suivre pour en acheter et qui nous a même gracieusement prêté le détendeur nécessaire au gonflage du ballon.
 
-TODO : photo de la réception du ballon, du parachute et photo de la bouteille d'hélium dans la voiture
+TODO : photo de la réception du ballon
+
+{% include lightbox-gallery.html galleryid="ptimulus1-reception" %}
 
 Nous avons par contre dû fabriquer un gonfleur adapté au manchon du ballon : le détendeur faisait 1,5cm de diamètre alors que le manchon du ballon faisait 11cm de diamètre. Ainsi est né Jack, magnifique adaptateur de notre conception permettant de gonfler un ballon par un manchon de 11cm avec un détendeur de 1,5cm, réalisé à l'aide d'un tuyau d'arrosage et d'un tube de PVC, collés à la mousse expansive :
 
 TODO : photo de Jack
 
-
 #### Le réflecteur radar
 La présence d'un réflecteur radar est obligatoire pour obtenir l'autorisation de vol de la DGAC. C'est un équipement que nous avons pu fabriquer nous-même en suivant des dimensionnements de réflecteurs radar existants.
 
-TODO : photo
+{% include lightbox-gallery.html galleryid="ptimulus1-reflecteur" %}
 
 #### La nacelle et l'équipement embarqué
 C'est la construction de la nacelle qui nous a mis le plus à l'épreuve. Les contraintes qu'elle devait respecter étaient fortes :
