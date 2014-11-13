@@ -4,7 +4,7 @@
     {% for img in gallery.images %}
 <div style='float:left;margin: 7px; text-align:center;' class='thumbnail'>
 <figure>
-<a href="{{ gallery.imagefolder }}/{{ img.name }}" data-lightbox="include.galleryid" title="{{ img.text }}">
+<a href="{{ gallery.imagefolder }}/{{ img.name }}" data-lightbox="{{ include.galleryid }}" title="{{ img.text }}">
   <img src="{{ gallery.imagefolder }}/{{ img.thumb }}" style="max-width:200px" alt="{{ img.text }}">
 </a>
     {% if img.caption %}
