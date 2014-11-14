@@ -6,7 +6,7 @@ section: ptimulus1
 ---
 
 ## Naissance de Ptimulus 1
-Ptimulus 1 étant notre tout premier ballon, nous n'avions aucune expérience sur la manière de construire un ballon capable d'atteindre 30000m d'altitude. Nous nous sommes donc renseignés sur des projets similaires documentés sur internet, mais nous avons également fait une importante étude initiale nous-mêmes. Nous nous sommes fixés dès le début nos objectifs, mais aussi nos contraintes.
+Ptimulus 1 étant notre tout premier ballon, nous n'avions aucune expérience sur la manière de construire un ballon capable d'atteindre 30000m d'altitude. Nous nous sommes donc renseigné sur des projets similaires documentés sur internet, mais nous avons également fait une importante étude initiale nous-même. Nous nous sommes fixé dès le début nos objectifs, mais aussi nos contraintes.
 
 #### Objectifs fixés lors de l'étude initiale
 Les objectifs techniques étaient :
@@ -25,10 +25,10 @@ Les objectifs étaient :
 
 
 #### Architecture fixée lors de l'étude initiale
-L'architecture globale du ballon a été assez simple à concevoir, car tous les ballons stratosphériques contiennent généralement les mêmes élément : 
+L'architecture globale du ballon a été assez simple à concevoir, car tous les ballons stratosphériques contiennent généralement les mêmes éléments :
 
-- Un ballon en latex gonflé à l'hélium 
-- Une chaine de vol constitué d'une nacelle, un réflecteur radar et un parachute
+- Un ballon en latex gonflé à l'hélium
+- Une chaine de vol constituée d'une nacelle, un réflecteur radar et un parachute
 Nous n'avons donc rien inventé sur ce point, et nous avons décidé de construire notre ballon en suivant cette architecture :
 
 TODO : mettre un schéma
@@ -67,12 +67,12 @@ La présence d'un réflecteur radar est obligatoire pour obtenir l'autorisation 
 #### La nacelle et l'équipement embarqué
 C'est la construction de la nacelle qui nous a mis le plus à l'épreuve. Les contraintes qu'elle devait respecter étaient fortes :
 
-- embarquer 2 téléphones (pour la redondance) 
+- embarquer 2 téléphones (pour la redondance)
 - avoir une très bonne isolation thermique, le froid étant l'ennemi juré des batteries
 - peser environ 350g maximum tout compris pour respecter les 400g visés pour le total de la chaine de vol
 
 Pour la construction de la nacelle, nous avons décidé d'utiliser du polystyrène expansé. C'est un matériau utilisé dans l'isolation thermique des habitations et qui a l'avantage de se trouver facilement en magasin de bricolage.
-Pour savoir exactement quel polystyrène utiliser, et de quelle épaisseur, nous avons pas fait des essais. Nous avons sélectionné 2 polystyrènes différents qui, sur le papier, nous semblaient avoir le meilleur compromis efficacité-poids, et nous avons construit une nacelle avec chaque polystyrène. 
+Pour savoir exactement quel polystyrène utiliser, et de quelle épaisseur, nous avons fait des essais. Nous avons sélectionné 2 polystyrènes différents qui, sur le papier, nous semblaient avoir le meilleur compromis efficacité-poids, et nous avons construit une nacelle avec chaque polystyrène.
 Nous avions un polystyrène blanc de 2cm d'épaisseur très léger et un polystyrène noir de 3cm d'épaisseur, plus dense.
 
 TODO : photos

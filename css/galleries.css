@@ -1,27 +1,26 @@
 .thumbnail {
     width: 200px;
-	height: 200px;
 }
- 
+
 .thumbnail a img {
     opacity: 0.6;
     border: none;
-    -ms-filter: "prodig:DXImageTransform.Microsoft.Alpha(Opacity=25)"; 
+    -ms-filter: "prodig:DXImageTransform.Microsoft.Alpha(Opacity=25)";
     filter: alpha(opacity = 25);
     -webkit-transition: opacity 0.5s ease-in-out;
     -moz-transition: opacity 0.5s ease-in-out;
     -o-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
- 
+    margin: 0px;
 }
- 
+
 .thumbnail a:hover img, #images a:focus img {
     opacity: 1.0;
     -ms-filter:"prodig:DXImageTransform.Microsoft.Alpha(Opacity=90)";
     filter: alpha(opacity = 90);
 }
 
-figure { 
+figure {
   display: table;
   margin-bottom: 0px;
   margin-left: 0px;
@@ -29,7 +28,7 @@ figure {
   margin-top: 0px;
 }
 
-figcaption { 
+figcaption {
   display: table-caption; /* aligns size to the table of the figure */
   caption-side: bottom /* makes the caption appear underneath the image/figure */
 }
