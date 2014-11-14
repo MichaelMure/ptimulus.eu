@@ -72,13 +72,13 @@ body {
     bottom: 0;
     width: 18rem;
     text-align: left;
-	min-height: 639px;
+  min-height: 639px;
   }
 }
 
 @media (min-width: 58rem) {
   .sidebar  {
-	min-height: 780px;
+  min-height: 780px;
   }
 }
 
@@ -125,9 +125,9 @@ a.sidebar-nav-item:focus {
     padding-left: 0;
     list-style: none;
 }
-  
+
 @media (min-width: 48rem) {
-  .sidebar-nav-sub {  
+  .sidebar-nav-sub {
     padding-left: 2rem;
     list-style: circle;
   }
@@ -302,4 +302,8 @@ a.sidebar-nav-item:focus {
 }
 .icon > svg path {
     fill: #828282;
+}
+
+video {
+    border-radius: 5px;
 }
