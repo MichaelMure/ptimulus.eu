@@ -26,7 +26,12 @@ layout: default
 	  {% endfor %}
   {% endif %}
   
-  {{ page.title }}
+  {% if page.title_key %}
+    {% capture full_title_key %}title.{{ page.title_key }}{% endcapture %}
+    {% t full_title_key %}
+  {% else %}
+    {{ page.title }}
+  {% endif %}
   </h4>
   <hr>
   {{ content }}

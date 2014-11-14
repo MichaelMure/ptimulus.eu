@@ -6,7 +6,7 @@
     </div>
 
     <ul class="sidebar-nav">
-
+	
       {% for cat in site.category-list %}
         {% capture current_cat_url %}/{{ cat.url }}/{% endcapture %}
         <li class="sidebar-nav-item{% if page.url == current_cat_url %} active{% endif %}">{{ cat.pretty }}</li>
@@ -18,7 +18,7 @@
               {% for pc in site_page.section %}
                 {% if pc == cat.url %}
                   <li class="sidebar-nav-sub-item{% if page.url contains site_page.url %} active{% endif %}">
-                    <a href="{{ site_page.url }}">{{ site_page.title }}</a>
+                    <a href="{{site.baseurl}}{{ site_page.url }}">{{ site_page.title }}</a>
                   </li>
                 {% endif %}
               {% endfor %}
@@ -29,19 +29,19 @@
       {% endfor %}
 
       <li class="sidebar-nav-item{% if page.url == "/regulation/" %} active{% endif %}">
-        <a href="/regulation">Réglementation</a>
+	    <a href="{{site.baseurl}}/regulation">{% t title.regulation %}</a>
       </li>
       
       <li class="sidebar-nav-item{% if page.url == "/links/" %} active{% endif %}">
-        <a href="/links">Liens</a>
+        <a href="{{site.baseurl}}/links">{% t title.links %}</a>
       </li>
 
       <li class="sidebar-nav-item{% if page.url == "/thanks/" %} active{% endif %}">
-        <a href="/thanks">Remerciements</a>
+        <a href="{{site.baseurl}}/thanks">{% t title.thanks %}</a>
       </li>
 
       <li class="sidebar-nav-item{% if page.url == "/contact/" %} active{% endif %}">
-        <a href="/contact">Contact</a>
+        <a href="{{site.baseurl}}/contact">{% t title.contact %}</a>
       </li>
 
 
@@ -57,7 +57,18 @@
         </a>
       </li>
     </ul>
-
+	
     <p>&copy; {{ site.time | date: '%Y' }}. Tous droits réservés.</p>
+	
+	{% if site.lang != "en" %}
+      {% capture link %}{{ site.baseurl_root }}/en{{ page.url}}{% endcapture %}
+      <a href="{{ link }}" ><img src="/img/i18n/english_flag.jpg"></a>
+	{% endif %}
+	
+	{% if site.lang != "fr" %}
+      {% capture link %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
+      <a href="{{ link }}" ><img src="/img/i18n/french_flag.jpg"></a>
+	{% endif %}
+    
   </div>
 </div>
