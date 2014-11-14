@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Ils nous ont aidé!
+title_key: thanks
 permalink: /thanks/
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Software
+title_key: ptimulus1.software
 permalink: /ptimulus1/software/
 section: ptimulus1
 ---

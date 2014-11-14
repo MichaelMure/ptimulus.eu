@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Résultats
+title_key: ptimulus1.results
 permalink: /ptimulus1/result/
 section: ptimulus1
 ---

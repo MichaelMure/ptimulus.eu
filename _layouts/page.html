@@ -20,18 +20,15 @@ layout: default
   {% if page.subsection %}
     {% capture section_permalink %}/{{ page.section }}/{{ page.subsection }}/{% endcapture %}
     {% for site_page in pages %}
-	    {% if site_page.permalink == section_permalink %}
-	      <a href="{{ site_page.permalink }}">{{ site_page.title }}</a> > 
+	    {% if site_page.permalink == section_permalink %}		  
+          {% capture full_title_key %}title.{{ site_page.title_key }}{% endcapture %}
+	      <a href="{{site.baseurl}}{{ site_page.permalink }}">{% t full_title_key %}</a> > 
 	    {% endif %}
 	  {% endfor %}
   {% endif %}
   
-  {% if page.title_key %}
-    {% capture full_title_key %}title.{{ page.title_key }}{% endcapture %}
-    {% t full_title_key %}
-  {% else %}
-    {{ page.title }}
-  {% endif %}
+  {% capture full_title_key %}title.{{ page.title_key }}{% endcapture %}
+  {% t full_title_key %}
   </h4>
   <hr>
   {{ content }}

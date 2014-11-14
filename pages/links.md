@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Liens utiles
+title_key: links
 permalink: /links/
 ---
 

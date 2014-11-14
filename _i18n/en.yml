@@ -1,3 +1,7 @@
+site:
+    copyright: All rights reserved.
+    tagline: Guys, what happens if we send a balloon into the stratosphere ?
+
 title:
     regulation: Regulation
     links: Links
@@ -7,6 +11,10 @@ title:
         hardware: Hardware
         software: Software
         dayd: The D Day
-        galleries: Photo galleries
+        galleries_section: Photo galleries
         results: Results
         press: Press
+        galleries:
+            launch: Launch
+            flight: Flight
+            recovery: Recovery

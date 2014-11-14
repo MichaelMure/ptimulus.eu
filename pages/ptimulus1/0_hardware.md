@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hardware
+title_key: ptimulus1.hardware
 permalink: /ptimulus1/hardware/
 section: ptimulus1
 ---

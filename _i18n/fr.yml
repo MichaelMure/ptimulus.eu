@@ -1,12 +1,20 @@
+site:
+    copyright: Tous droits réservés.
+    tagline: Il se passe quoi si on envoit un ballon dans la stratosphère ?
+
 title:
     regulation: Réglementation
-    links: Liens
+    links: Liens utiles
     thanks: Remerciements
     contact: Contact
     ptimulus1:
         hardware: Matériel utilisé
         software: Logiciel
         dayd: Le jour J
-        galleries: Galeries photos
+        galleries_section: Galeries photos
         results: Résultats
         press: Presse
+        galleries:
+            launch: Launch
+            flight: Flight
+            recovery: Recovery

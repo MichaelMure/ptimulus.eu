@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Presse
+title_key: ptimulus1.press
 permalink: /ptimulus1/press/
 section: ptimulus1
 ---

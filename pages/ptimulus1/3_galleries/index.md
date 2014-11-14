@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Galeries photos
+title_key: ptimulus1.galleries_section
 permalink: /ptimulus1/galleries/
 section: ptimulus1
 ---

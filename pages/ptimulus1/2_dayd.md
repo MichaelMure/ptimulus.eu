@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Le Jour J
+title_key: ptimulus1.dayd
 permalink: /ptimulus1/dayd/
 section: ptimulus1
 ---

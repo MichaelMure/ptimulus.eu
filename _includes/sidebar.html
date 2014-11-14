@@ -2,7 +2,7 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
         <center><a href="/"><img src="/img/logo.png" alt="Ptimulus"></a></center>
-      <p class="lead">{{ site.description }}</p>
+      <p class="lead">{% t site.tagline %}</p>
     </div>
 
     <ul class="sidebar-nav">
@@ -18,7 +18,8 @@
               {% for pc in site_page.section %}
                 {% if pc == cat.url %}
                   <li class="sidebar-nav-sub-item{% if page.url contains site_page.url %} active{% endif %}">
-                    <a href="{{site.baseurl}}{{ site_page.url }}">{{ site_page.title }}</a>
+				  {% capture full_title_key %}title.{{ site_page.title_key }}{% endcapture %}
+                    <a href="{{site.baseurl}}{{ site_page.url }}">{% t full_title_key %}</a>
                   </li>
                 {% endif %}
               {% endfor %}
@@ -58,7 +59,7 @@
       </li>
     </ul>
 	
-    <p>&copy; {{ site.time | date: '%Y' }}. Tous droits réservés.</p>
+    <p>&copy; {{ site.time | date: '%Y' }}. {% t site.copyright %}</p>
 	
 	{% if site.lang != "en" %}
       {% capture link %}{{ site.baseurl_root }}/en{{ page.url}}{% endcapture %}
