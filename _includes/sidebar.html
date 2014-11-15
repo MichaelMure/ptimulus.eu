@@ -1,7 +1,12 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-        <center><a href="{{site.baseurl}}"><img src="/img/logo.png" alt="Ptimulus"></a></center>
+        {% if site.lang != "fr" %}
+          {% capture mainPageUrl %}{{site.baseurl_root}}/{{site.lang}}{% endcapture %}
+        {% else %}
+          {% capture mainPageUrl %}/{% endcapture %}
+        {% endif %}
+        <center><a href="{{mainPageUrl}}"><img src="/img/logo.png" alt="Ptimulus"></a></center>
       <p class="lead">{% t site.tagline %}</p>
     </div>
 
