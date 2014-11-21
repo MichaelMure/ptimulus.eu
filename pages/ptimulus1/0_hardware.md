@@ -78,7 +78,7 @@ Le résultat a été assez décevant avec les 2 nacelles : la température est r
 
 Nous avons donc ajouté dans la nacelle une résistance de 8ohms branchée directement sur une batterie auxiliaire de 1500mAh et 3,7V (une batterie de téléphone portable), pour chauffer l'intérieur de la nacelle. Selon les lois fondamentales des courants électriques, notre résistance devait donc dégager 1,7W de chaleur pendant 3h. En pratique, la batterie auxiliaire n'a tenu que 1h40, mais la température de la 2ème nacelle a été stabilisée à 15°C pendant ce temps, et est resté positive pendant 2h15. C'était tout à fait suffisant, le vol était prévu pour durer environ 2h30 en tout, mais la température extérieure réelle allait être plus élevée au début et à la fin du vol. De plus, avec la diminution de la pression en altitude, il y a mécaniquement moins de perte de chaleur. 
 
-L'ajout d'une batterie auxiliaire et d'une résistance a engendré un poids supplémentaire d'environ 20g, mais nous restions dans nos limites, et de toutes façons, nous n'avions pas le choix.
+L'ajout d'une batterie auxiliaire et d'une résistance a engendré un poids supplémentaire d'environ 40g, mais nous restions dans nos limites, et de toutes façons, nous n'avions pas le choix.
 
 Voici les résultats de nos tests des 2 nacelles au congélateur :
 
