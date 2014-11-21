@@ -31,20 +31,20 @@ Commence alors une longue attente.
 Au final, l'estimation s'avèrera être exacte à seulement douze kilomètre près.
 
 <p>
-{% include lightbox-single.html img="prediction1_2.png" imagefolder="/img/" title="Estimation du lieu d'atterissage" %}
+{% include lightbox-single.html img="prediction1_2.png" imagefolder="/img/ptimulus1/" title="Estimation du lieu d'atterissage" %}
 </p>
 
 <b>11h29</b>: Après une longue attente fébrile au point d'atterissage estimé, un SMS envoyé par la nacelle est enfin recu par l'équipe !
 Cela signifie que le ballon a bien explosé, faisant chuter la nacelle à une vitesse d'environ 5,5 mètre par seconde freinée au parachute, et que les téléphones ont pu retrouver du réseau téléphonique. Immédiatement, l'équipe se met en route (voir la galerie [récupération du ballon](/ptimulus1/galleries/recuperation/)).
 
-{% include lightbox-gallery.html galleryid="dayd_recuperation" %}
+{% include lightbox-gallery.html galleryid="dayd_recovery" %}
 
 <b>13h30</b>: La nacelle est retrouvée dans un petit bois, parfaitement intacte.
 
-{% include lightbox-gallery.html galleryid="dayd_recuperation2" %}
+{% include lightbox-gallery.html galleryid="dayd_recovery2" %}
 
 <b>14h</b>: Les téléphones sont extraits de la nacelle pour découvrir les premières photos. À leur vue, l'équipe décide d'ouvrir une bouteille de crémant bien méritée.
 
 <p>
-{% include lightbox-single.html img="recuperation-16.jpg" imagefolder="/img/galleries/recuperation/" title="Un peu de crémant pour fêter la réussite de Ptimulus 1!" %}
+{% include lightbox-single.html img="recuperation-16.jpg" imagefolder="/img/galleries/recovery/" title="Un peu de crémant pour fêter la réussite de Ptimulus 1!" %}
 </p>

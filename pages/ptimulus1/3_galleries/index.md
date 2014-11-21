@@ -5,8 +5,10 @@ permalink: /ptimulus1/galleries/
 section: ptimulus1
 ---
 
-{% for gallery in site.data.galleries %}
-  {% if gallery.embedded != true %}
-  - [{{ gallery.description }}]({{ gallery.id }})
+{% assign pages = site.pages | sort:"path"  %}
+{% for site_page in pages %}
+  {% if site_page.subsection == 'galleries' and site_page.section == 'ptimulus1' %}
+  {% capture full_title_key %}title.{{ site_page.title_key }}{% endcapture %}
+  - <a href="{{site.baseurl}}{{ site_page.url }}">{% t full_title_key %}</a>
   {% endif %}
 {% endfor %}

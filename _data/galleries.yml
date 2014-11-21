@@ -1,6 +1,6 @@
-- id: lancer
+- id: launch
   description: Lancer du ballon
-  imagefolder: /img/galleries/lancer
+  imagefolder: /img/galleries/launch
   images:
   - name: lancer-1.jpg
     thumb: lancer-1-thumb.png
@@ -10,9 +10,9 @@
     thumb: lancer-3-thumb.png
   - name: lancer-4.jpg
     thumb: lancer-4-thumb.png
-- id: recuperation
+- id: recovery
   description: Récupération du ballon
-  imagefolder: /img/galleries/recuperation
+  imagefolder: /img/galleries/recovery
   images:
   - name: recuperation-1.jpg
     thumb: recuperation-1-thumb.png
@@ -48,9 +48,9 @@
     thumb: recuperation-16-thumb.png
   - name: recuperation-17.jpg
     thumb: recuperation-17-thumb.png
-- id: photos-du-vol
+- id: flight
   description: Photos du vol
-  imagefolder: /img/galleries/photos-du-vol
+  imagefolder: /img/galleries/flight
   images:
   - name: bottom_2014-09-06-08.58.46-150m.jpg
     thumb: bottom_2014-09-06-08.58.46-150m-thumb.png
@@ -186,7 +186,6 @@
     text: 14830m - dernière photo prise par le ballon
 - id: ptimulus1-hardware
   imagefolder: /img/ptimulus1
-  embedded: true
   images:
   - name: nacelle1.jpg
     thumb: nacelle1-thumb.png
@@ -196,17 +195,15 @@
     thumb: nacelle3-thumb.png
   - name: nacelle4.jpg
     thumb: nacelle4-thumb.png
-- id: ptimulus1-reflecteur
+- id: ptimulus1-reflector
   imagefolder: /img/ptimulus1
-  embedded: true
   images:
   - name: reflecteur0.jpg
     thumb: reflecteur0-thumb.png
   - name: reflecteur2.jpg
     thumb: reflecteur2-thumb.png
-- id: ptimulus1-reception
+- id: ptimulus1-recovery
   imagefolder: /img/ptimulus1
-  embedded: true
   images:
   - name: helium.jpg
     thumb: helium-thumb.png
@@ -214,7 +211,6 @@
     thumb: parachute-thumb.png
 - id: people
   imagefolder: /img/people
-  embedded: true
   images:
   - name: michaelmure.jpg
     thumb: michaelmure-thumb.png
@@ -228,9 +224,8 @@
   - name: bertrandmandrin.jpg
     thumb: bertrandmandrin-thumb.png
     caption: Bertrand
-- id: dayd_recuperation
-  imagefolder: /img/galleries/recuperation
-  embedded: true
+- id: dayd_recovery
+  imagefolder: /img/galleries/recovery
   images:
   - name: recuperation-2.jpg
     thumb: recuperation-2-thumb.png
@@ -238,9 +233,8 @@
     thumb: recuperation-4-thumb.png
   - name: recuperation-5.jpg
     thumb: recuperation-5-thumb.png
-- id: dayd_recuperation2
-  imagefolder: /img/galleries/recuperation
-  embedded: true
+- id: dayd_recovery2
+  imagefolder: /img/galleries/recovery
   images:
   - name: recuperation-10.jpg
     thumb: recuperation-10-thumb.png
