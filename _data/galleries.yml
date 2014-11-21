@@ -150,7 +150,6 @@
     thumb: nacelle4-thumb.png
 - id: ptimulus1-nacelle
   imagefolder: /img/ptimulus1
-  embedded: true
   images:
   - name: nacelle1.jpg
     thumb: nacelle1-thumb.png

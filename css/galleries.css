@@ -32,3 +32,9 @@ figcaption {
   display: table-caption; /* aligns size to the table of the figure */
   caption-side: bottom /* makes the caption appear underneath the image/figure */
 }
+
+.lightbox-embedded {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 15px;
+}
