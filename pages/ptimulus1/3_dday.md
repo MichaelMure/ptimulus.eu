@@ -1,7 +1,7 @@
 ---
 layout: page
-title_key: ptimulus1.dayd
-permalink: /ptimulus1/dayd/
+title_key: ptimulus1.dday
+permalink: /ptimulus1/dday/
 section: ptimulus1
 ---
 
