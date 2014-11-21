@@ -8,8 +8,8 @@ title:
     thanks: Remerciements
     contact: Contact
     ptimulus1:
-        hardware: Matériel utilisé
-        software: Logiciel
+        hardware: Construction du ballon
+        software: Conception logicielle
         dayd: Le jour J
         galleries_section: Galeries photos
         results: Résultats
@@ -65,3 +65,4 @@ photo_descriptions:
         side-2014-09-06-09-51-17-14540m-jpg: 14540m -
         side-2014-09-06-09-51-47-14630m-jpg: 14630m -
         bottom-2014-09-06-09-52-16-14830m-jpg: 14830m - dernière photo prise par le ballon      
+

@@ -144,14 +144,18 @@
 - id: ptimulus1-hardware
   imagefolder: /img/ptimulus1
   images:
-  - name: nacelle1.jpg
-    thumb: nacelle1-thumb.png
-  - name: nacelle2.jpg
-    thumb: nacelle2-thumb.png
   - name: nacelle3.jpg
     thumb: nacelle3-thumb.png
   - name: nacelle4.jpg
     thumb: nacelle4-thumb.png
+- id: ptimulus1-nacelle
+  imagefolder: /img/ptimulus1
+  embedded: true
+  images:
+  - name: nacelle1.jpg
+    thumb: nacelle1-thumb.png
+  - name: nacelle2.jpg
+    thumb: nacelle2-thumb.png
 - id: ptimulus1-reflector
   imagefolder: /img/ptimulus1
   images:
