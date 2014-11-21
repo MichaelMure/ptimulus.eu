@@ -4,9 +4,16 @@
     {% for img in gallery.images %}
 <div style='display:inline-block; margin: 7px; text-align:center;' class='thumbnail'>
 <figure>
-<a href="{{ gallery.imagefolder }}/{{ img.name }}" data-lightbox="{{ include.galleryid }}" title="{{ img.text }}">
-  <img src="{{ gallery.imagefolder }}/{{ img.thumb }}" style="max-width:200px" alt="{{ img.text }}">
+    {% if img.i18n_description or gallery.i18n_description %}
+    {% capture i18n_key %}photo_descriptions.{{gallery.id}}.{{ img.name | slugify }}{% endcapture %}
+<a href="{{ gallery.imagefolder }}/{{ img.name }}" data-lightbox="{{ include.galleryid }}" title="{% t i18n_key %}">
+  <img src="{{ gallery.imagefolder }}/{{ img.thumb }}" style="max-width:200px" alt="{% t i18n_key %}" />
 </a>
+    {% else %}
+<a href="{{ gallery.imagefolder }}/{{ img.name }}" data-lightbox="{{ include.galleryid }}" >
+  <img src="{{ gallery.imagefolder }}/{{ img.thumb }}" style="max-width:200px" />
+</a>
+	{% endif %}
     {% if img.caption %}
 <figcaption>{{img.caption}}</figcaption>
     {% endif %}
