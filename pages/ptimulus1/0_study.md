@@ -27,7 +27,7 @@ L'architecture globale du ballon a été assez simple à concevoir, car tous les
 - Une chaine de vol constituée d'une nacelle, un réflecteur radar et un parachute
 Nous n'avons donc rien inventé sur ce point, et nous avons décidé de construire notre ballon en suivant cette architecture :
 
-TODO : mettre un schéma
+{% include lightbox-single.html img="schema_fr.png" imagefolder="/img/ptimulus1/" %}
 
 La contrainte du poids est apparue très tôt dans la conception du ballon : si nous ne voulions pas nous ruiner en hélium, la chaine de vol devait être relativement légère : environ 400g maximum. Cela a finalement été exactement le poids réel de notre chaine de vol, même s'il est apparu plus tard que nous aurions pu monter jusqu'à 550g sans pratiquement aucune incidence sur la quantité d'hélium, l'altitude atteinte et la durée du vol.
 
