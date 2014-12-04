@@ -3,7 +3,7 @@
 }
 
 .thumbnail a img {
-    opacity: 0.6;
+    opacity: 0.8;
     border: none;
     -ms-filter: "prodig:DXImageTransform.Microsoft.Alpha(Opacity=25)";
     filter: alpha(opacity = 25);
