@@ -148,6 +148,12 @@
     thumb: nacelle3-thumb.png
   - name: nacelle4.jpg
     thumb: nacelle4-thumb.png
+- id: ptimulus1-jack
+  imagefolder: /img/ptimulus1
+  images:
+  - name: jack.jpg
+    thumb: jack-thumb.png
+    caption: Jack, notre gonfleur!
 - id: ptimulus1-nacelle
   imagefolder: /img/ptimulus1
   images:
@@ -167,8 +173,10 @@
   images:
   - name: helium.jpg
     thumb: helium-thumb.png
+    caption: Récupération de la bouteille d'hélium
   - name: parachute.jpg
     thumb: parachute-thumb.png
+    caption: Le déballage du parachute
 - id: people
   imagefolder: /img/people
   images:

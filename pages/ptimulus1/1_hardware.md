@@ -13,7 +13,7 @@ Pour l'hélium, nous avons contacté le revendeur Air Liquide le plus proche, qu
 
 Nous avons par contre dû fabriquer un gonfleur adapté au manchon du ballon : le détendeur faisait 1,5cm de diamètre alors que le manchon du ballon faisait 11cm de diamètre. Ainsi est né Jack, magnifique adaptateur de notre conception permettant de gonfler un ballon par un manchon de 11cm avec un détendeur de 1,5cm, réalisé à l'aide d'un tuyau d'arrosage et d'un tube de PVC, collés à la mousse expansive :
 
-TODO : photo de Jack
+{% include lightbox-gallery.html galleryid="ptimulus1-jack" %}
 
 #### Le réflecteur radar
 La présence d'un réflecteur radar est obligatoire pour obtenir l'autorisation de vol de la DGAC. C'est un équipement que nous avons pu fabriquer nous-même en suivant des dimensionnements de réflecteurs radar existants.
