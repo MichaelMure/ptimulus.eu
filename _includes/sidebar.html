@@ -66,6 +66,8 @@
 	
     <p>&copy; {{ site.time | date: '%Y' }}. {% t site.copyright %}</p>
 	
+  <!--
+  TODO: reactivate the i18n button switch, as soon as the english version is available
 	{% if site.lang != "en" %}
       {% capture link %}{{ site.baseurl_root }}/en{{ page.url}}{% endcapture %}
       <a href="{{ link }}" ><img src="/img/i18n/english_flag.jpg"></a>
@@ -75,6 +77,7 @@
       {% capture link %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
       <a href="{{ link }}" ><img src="/img/i18n/french_flag.jpg"></a>
 	{% endif %}
-    
+  -->
+  
   </div>
 </div>
