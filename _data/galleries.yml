@@ -146,8 +146,10 @@
   images:
   - name: nacelle3.jpg
     thumb: nacelle3-thumb.png
+    caption: L'intérieur de la nacelle
   - name: nacelle4.jpg
     thumb: nacelle4-thumb.png
+    caption: La nacelle terminée
 - id: ptimulus1-jack
   imagefolder: /img/ptimulus1
   images:
@@ -159,15 +161,19 @@
   images:
   - name: nacelle1.jpg
     thumb: nacelle1-thumb.png
+    caption: Découpe du polystyrène
   - name: nacelle2.jpg
     thumb: nacelle2-thumb.png
+    caption: Assemblage de la nacelle
 - id: ptimulus1-reflector
   imagefolder: /img/ptimulus1
   images:
   - name: reflecteur0.jpg
     thumb: reflecteur0-thumb.png
+    caption: Squelette du réflecteur
   - name: reflecteur2.jpg
     thumb: reflecteur2-thumb.png
+    caption: Le réflecteur terminé
 - id: ptimulus1-recovery
   imagefolder: /img/ptimulus1
   images:
