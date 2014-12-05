@@ -306,4 +306,6 @@ a.sidebar-nav-item:focus {
 
 video {
     border-radius: 5px;
+	max-width: 100%;
+	max-height: auto;
 }
