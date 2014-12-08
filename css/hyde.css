@@ -72,13 +72,13 @@ body {
     bottom: 0;
     width: 18rem;
     text-align: left;
-    min-height: 663px;
+    min-height: 610px;
   }
 }
 
 @media (min-width: 58rem) {
   .sidebar  {
-    min-height: 810px;
+    min-height: 743px;
   }
 }
 
