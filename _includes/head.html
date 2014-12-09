@@ -7,9 +7,21 @@
 
   <meta name="description" content="{{ site.description }}">
 
+  {% if page.title_key %}
+    {% capture full_title_key %}title.{{ page.title_key }}{% endcapture %}
+    <meta name="title" content="{% t full_title_key %}">
+    <title>
+      {% t full_title_key %}
+    </title>
+  {% else %}
   <title>
       {{ site.title }}
   </title>
+  {% endif %}
+		
+  {% capture mainPageUrl %}/{% endcapture %}
+          
+  
 
   <!-- CSS -->
   <link rel="stylesheet" href="/css/poole.css">

@@ -2,7 +2,7 @@
 title: Ptimulus
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Et si on envoyait un ballon dans la stratosphère ?
+  Ptimulus est un projet amateur d'envois de ballon sonde dans la stratosphère afin d'effectuer des mesures et des photos aériennes
 baseurl: "" # the subpath of the site
 url: "http://ptimulus.eu" # the base hostname & protocol for the site
 languages: ["fr"]
