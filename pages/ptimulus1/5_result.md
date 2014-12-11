@@ -42,7 +42,13 @@ La mesure de l'accélération a cessé après seulement quelques minutes sur les
 ### Champ magnétique terrestre
 blablablabla
 
-{% include lightbox-single.html img="magn.png" imagefolder="/img/ptimulus1/" title="Mesure du champ magnétique" %}
+{% include lightbox-single.html img="magn.png" imagefolder="/img/ptimulus1/" title="Mesure de la puissance du champ magnétique" %}
+
+{% include lightbox-single.html img="magn_cumul1.png" imagefolder="/img/ptimulus1/" title="Angle de la nacelle sur l'axe vertical" %}
+
+{% include lightbox-single.html img="magn_cumul2.png" imagefolder="/img/ptimulus1/" title="Angle de la nacelle sur les deux axes horizontaux" %}
+
+{% include lightbox-single.html img="magn_tilt.png" imagefolder="/img/ptimulus1/" title="Inclinaison de la nacelle" %}
 
 
 
