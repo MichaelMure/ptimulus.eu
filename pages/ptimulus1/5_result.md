@@ -36,19 +36,26 @@ Pour les curieux, l'extrapolation est une régression polynomiale de degré 2 po
 
 
 ### Accélération
-La mesure de l'accélération a cessé après seulement quelques minutes sur les 2 téléphones pour une raison inconnue. Nous n'avons donc pas de résultats pour la mesure de l'accélération au cours du vol.
+La mesure de l'accélération a cessé après seulement quelques minutes sur les 2 téléphones. Android semble arrêter de fournir des valeurs après un certains temps en veille. Nous n'avons donc pas de résultats exploitable pour la mesure de l'accélération au cours du vol.
 
 
 ### Champ magnétique terrestre
-blablablabla
+
+La mesure du champs magnétique avec la boussole 3 axes fournit plus de résultats.
 
 {% include lightbox-single.html img="magn.png" imagefolder="/img/ptimulus1/" title="Mesure de la puissance du champ magnétique" %}
 
+La puissance du champs magnétique ne montre pas de diminution significative avec l'altitude. Cependant, après traitement des données brutes, on peut déterminer l'orientation de la nacelle au cours du vol.
+
 {% include lightbox-single.html img="magn_cumul1.png" imagefolder="/img/ptimulus1/" title="Angle de la nacelle sur l'axe vertical" %}
+
+On peut observer que la nacelle tourne sur elle même de manière assez régulière et effectue un tour complet toute les 2 minutes. 70 tours au total pendant le vol. L'origine de cette rotation est difficile a déterminer. Et toi lecteur, as-tu une idée ? 
 
 {% include lightbox-single.html img="magn_cumul2.png" imagefolder="/img/ptimulus1/" title="Angle de la nacelle sur les deux axes horizontaux" %}
 
 {% include lightbox-single.html img="magn_tilt.png" imagefolder="/img/ptimulus1/" title="Inclinaison de la nacelle" %}
+
+De la même manière, on peut déterminer l'orientation de la nacelle sur les deux axes horizontaux et faire un peu de statistique. On constate que ça gigote pas mal au bout du fil avec le vent (on peut le constater sur les photos également). L'inclinaison reste en grande majorité sous les 30°, mais peut aller jusqu'à 70°.
 
 
 
