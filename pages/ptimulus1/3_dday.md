@@ -18,7 +18,7 @@ Les téléphones commencent à prendre les premières photos et à envoyer diver
 {% include video.html filename="gonflage" %}
 </p>
 
-<b>9h</b>: Le ballon est laché à l'heure prévue (voir la galerie [lancer du ballon](/ptimulus1/galleries/launch/)) et décolle à une vitesse d'environ 4 mètres par seconde. Très vite, il disparaît parmis les nuages.
+<b>9h</b>: Le ballon est lâché à l'heure prévue (voir la galerie [lancer du ballon](/ptimulus1/galleries/launch/)) et décolle à une vitesse d'environ 4 mètres par seconde. Très vite, il disparaît parmis les nuages.
 
 <p>
 {% include video.html filename="lache" %}

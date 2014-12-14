@@ -45,6 +45,6 @@ Voici les résultats de nos tests des 2 nacelles au congélateur :
 
 {% include lightbox-single.html img="freezer_tests.png" imagefolder="/img/ptimulus1" title="Tests des nacelles au congélateur" %}
 
-Voici 2 photos de la nacelle définitive terminée. Sur la première on distingue bien les 2 téléphones contre la paroie du fond et contre la paroie du bas, ainsi que la batterie auxiliaire à droire et la résistance "sucre" au centre. Sur la deuxième photo on voit la nacelle et son inscription d'information sur fond vert (au cas où quelqu'un la trouve!) ainsi que le parachute et le réflecteur radar. 
+Voici 2 photos de la nacelle définitive terminée. Sur la première on distingue bien les 2 téléphones contre la paroie du fond et contre la paroie du bas, ainsi que la batterie auxiliaire à droite et la résistance "sucre" au centre. Sur la deuxième photo on voit la nacelle et son inscription d'information sur fond vert (au cas où quelqu'un la trouve!) ainsi que le parachute et le réflecteur radar. 
 
 {% include lightbox-gallery.html galleryid="ptimulus1-hardware" %}
