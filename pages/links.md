@@ -23,7 +23,7 @@ permalink: /links/
 ###### Réglementation
 [Directions de la Sécurité de l'Aviation Civile](http://www.developpement-durable.gouv.fr/-Directions-de-la-Securite-de-l-.html)
 
-[Règles de l'Air (version du 12/12/2013)](https://www.sia.aviation-civile.gouv.fr/dossier/texteregle/RDA_complet_12122013.pdf)
+[Règles de l'Air](https://www.sia.aviation-civile.gouv.fr/asp/frameset_fr.asp?m=26)
 
 
 ###### Divers
