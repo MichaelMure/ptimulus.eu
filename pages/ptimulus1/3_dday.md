@@ -7,7 +7,7 @@ section: ptimulus1
 
 Le lancement de Ptimulus 1 a eu lieu le samedi 6 septembre 2014. Par chance, les conditions météorologiques étaient idéales et les vents très faibles.
 
-<b>7h30</b>: Rendez-vous avec les membres du [club des Aiglons Germinois](http://les-aiglons-germinois.blog4ever.com/blog/index-716495.html) sur leur terrain.
+<b>7h30</b>: Rendez-vous avec les membres du [club des Aiglons Germinois](http://les-aiglons-germinois.blog4ever.com/) sur leur terrain.
 
 <b>8h</b>: Installation du matériel et début du gonflage du ballon
 
@@ -35,7 +35,7 @@ Au final, l'estimation s'avèrera être exacte à seulement douze kilomètre pr�
 </p>
 
 <b>11h29</b>: Après une longue attente fébrile au point d'atterissage estimé, un SMS envoyé par la nacelle est enfin recu par l'équipe !
-Cela signifie que le ballon a bien explosé, faisant chuter la nacelle à une vitesse d'environ 5,5 mètre par seconde freinée au parachute, et que les téléphones ont pu retrouver du réseau téléphonique. Immédiatement, l'équipe se met en route (voir la galerie [récupération du ballon](/ptimulus1/galleries/recuperation/)).
+Cela signifie que le ballon a bien explosé, faisant chuter la nacelle à une vitesse d'environ 5,5 mètre par seconde freinée au parachute, et que les téléphones ont pu retrouver du réseau téléphonique. Immédiatement, l'équipe se met en route (voir la galerie [récupération du ballon](/ptimulus1/galleries/recovery/)).
 
 {% include lightbox-gallery.html galleryid="dayd_recovery" %}
 

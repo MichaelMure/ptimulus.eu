@@ -7,7 +7,7 @@ permalink: /links/
 ###### Techniques, simulations, matériel
 [Simulation de trajectoire](http://predict.habhub.org)
 
-[Construction d'un gonfleur pour ballon](http://wiki.ukhas.org.uk/guides:fill_tube)
+[Construction d'un gonfleur pour ballon](http://ukhas.org.uk/guides:fill_tube)
 
 [Site de vente de ballons, parachutes et accessoires](http://www.randomengineering.co.uk)
 
@@ -17,7 +17,7 @@ permalink: /links/
 
 [Calculateur d'éclatement de ballon](http://habhub.org/calc/)
 
-[Caractéristiques techniques des ballons](http://wiki.ukhas.org.uk/guides:balloon_data)
+[Caractéristiques techniques des ballons](http://ukhas.org.uk/guides:balloon_data)
 
 
 ###### Réglementation
@@ -27,4 +27,4 @@ permalink: /links/
 
 
 ###### Divers
-[Club d'aéromodélisme des Aiglons Germinois](http://les-aiglons-germinois.blog4ever.com/blog/index-716495.html)
+[Club d'aéromodélisme des Aiglons Germinois](http://les-aiglons-germinois.blog4ever.com/)

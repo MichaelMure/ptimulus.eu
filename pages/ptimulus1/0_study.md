@@ -14,9 +14,9 @@ Voici les objectifs que nous nous étions fixés :
 - Atteindre 30000m
 - Effectuer les mesures permises par les équipements à notre disposition, tout au long du vol
 - Effectuer des photos tout au long du vol
-- Obtenir les autorisations nécessaires pour le lancé du ballon
+- Obtenir les autorisations nécessaires pour le lancer du ballon
 - Respecter un budget raisonnable (maximum 250€ par personne)
-- Réussir notre premier lancé pour acquérir une solide base d'expérience dans le lancé de ballons stratosphériques amateurs
+- Réussir notre premier lancer pour acquérir une solide base d'expérience dans le lancer de ballons stratosphériques amateurs
 - Et évidemment, travailler en équipe sur ce beau projet, en nous faisant plaisir!
 
 
